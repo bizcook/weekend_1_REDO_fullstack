@@ -1,0 +1,125 @@
+#page-wrap {
+  position: relative;
+  margin: 0 auto;
+  left: 50%;
+
+}
+body{
+  background-color: dimgray;
+  display: inline-block;
+  margin: 0 250px 0 250px;
+  padding: 40px;
+}
+h1{
+  font-family: bebas, avenir, 'gill sans', sans-serif;
+  color: white;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+
+
+}
+form {
+  color: tomato;
+  font-family: bebas, avenir, 'gill sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0 20px 40px 20px;
+  background-color: white;
+}
+label{
+  margin-top: 40px;
+  padding: 20px;
+  display: inline-block;
+  width: 200px;
+}
+
+.resultsEmployee{
+  padding: 0 20px 40px 20px;
+  background-color: tomato;
+}
+
+h3{
+  color: white;
+  font-family: bebas, avenir, 'gill sans', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: inline;
+  text-align: center;
+}
+
+p.monthlySalary{
+  font-family: bebas, avenir, 'gill sans', sans-serif;
+  font-size: 12px;
+  color: white;
+  letter-spacing: 1.5px;
+  padding-left: 20px;
+  padding-top: 30px;
+  margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+.submit{
+  text-align: right;
+  width: 40px;
+}
+ul{
+  color: white;
+  font-family: bebas, avenir, 'gill sans', sans-serif;
+  margin-left: 10px;
+  letter-spacing: 1px;
+  line-height: 32px;
+}
+input[type="submit"] {
+    background-color: tomato;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    font-family: bebas, avenir, 'gill sans', sans-serif;
+    letter-spacing: 1px;
+    display: block;
+    margin-left: 20px;
+    padding: 10px 20px 10px 20px;
+
+}
+input[type="submit"]:hover {
+    background-color: dimgray;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    font-family: bebas, avenir, 'gill sans', sans-serif;
+    letter-spacing: 1px;
+    display: block;
+    margin-left: 20px;
+    padding: 10px 20px 10px 20px;
+
+}
+
+.delete {
+  background-color: white;
+  color: tomato;
+  border: 0;
+  font-family: bebas, avenir, 'gill sans', sans-serif;
+  letter-spacing: 1px;
+  display: block;
+  padding: 10px 20px 10px 20px;
+  margin: 10px 0 10px; 0;
+
+}
+
+.delete:hover{
+  background-color: dimgray;
+  color: white;
+  border: 0;
+  font-family: bebas, avenir, 'gill sans', sans-serif;
+  letter-spacing: 1px;
+  display: block;
+  padding: 10px 20px 10px 20px;
+  margin: 10px 0 10px 0;
+}

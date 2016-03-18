@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Employee Form</title>
+
+    <!-- STYLES -->
+<link rel="stylesheet" href="./assets/styles/style.css" />
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="./vendors/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/scripts/script.js"></script>
+  </head>
+  <body>
+    <div id="page-wrap">
+
+    <h1>Employee Form</h1>
+    <p class="monthlySal"></p>
+    <form id="employeeForm">
+      <label for="employeeFirst">Enter your first name:</label>
+      <input type="text" id="employeeFirst" name="employeeFirst" placeholder="First Name"/><br>
+
+      <label for="employeeLast">Enter your last name:</label>
+      <input type="text" id="employeeLast" name="employeeLast" placeholder="Last Name"/><br>
+
+      <label for="employeeID">Enter your ID number:</label>
+      <input type="text" id="employeeID" name="employeeID" placeholder="ID number"/><br>
+
+      <label for="jobTitle">Enter your job title:</label>
+      <input type="text" id="jobTitle" name="jobTitle" placeholder="Job Title"/><br>
+
+      <label for="salary">Enter your salary:</label>
+      <input type="text" id="salary" name="salary" placeholder="Salary"/>
+
+      <input type="submit" value="Submit" />
+
+    </form>
+
+    <div class="resultsEmployee">
+      <ul class= "employeeOnDom">
+
+      </ul>
+      <p class="monthlySalary">
+      </p>
+
+    </div>
+  </div>
+  </body>
+</html>
